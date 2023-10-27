@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: #04290c;
+  }
+  
+  .search-form {
+    margin: 20px;
+    
+  }
+  button {
+    padding: 8px 8px;
+    margin-left: 4px;
+    color: rgb(33, 19, 2);
+    background-color: #c0e45e;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+    
+  }
+  button:hover, button:focus {
+    background-color: rgb(2, 69, 19);
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .photo-card {
+    border: 1px solid #b6bab6;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .photo-card img {
+    max-width: 100%;
+  }
+  
+  .load-more {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #notification {
+    color: red;
+    font-weight: bold;
+    margin: 20px;
+  }
+  
+a {
+    text-decoration: none;
+}
+a:hover, a:focus {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+  .info-item {
+    color: rgb(5, 33, 5); 
+    
+   
+  }
