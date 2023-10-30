@@ -76,9 +76,10 @@ function createImageCard(image) {
   `;
   return imageCard;
 }
+var lightbox = new SimpleLightbox('.photo-card a', { captionDelay: 250 });
 
-const lightbox = new SimpleLightbox('.photo-card a');
 lightbox.refresh();
+
 
 window.scrollTo({
   top: document.body.scrollHeight,
